@@ -6,7 +6,7 @@ function App() {
   return (
     <main className="w-screen h-screen flex flex-col">
       <img src="/image-omelette.jpeg" alt="" />
-      <div className="px-8 py-10">
+      <div className="px-8 py-10 font-outfit">
         <Intro />
         <Ingredients />
         <Instructions />
