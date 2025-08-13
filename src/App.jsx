@@ -1,7 +1,17 @@
+import Intro from "./components/Intro";
+import Ingredients from "./components/Ingredients";
+import Instructions from "./components/Instructions";
+import Nutrition from "./components/Nutrition";
 function App() {
   return (
-    <main className="bg-blue-800">
-      <h1>Testing</h1>
+    <main className="w-screen h-screen flex flex-col">
+      <img src="/image-omelette.jpeg" alt="" />
+      <div className="px-8 py-10">
+        <Intro />
+        <Ingredients />
+        <Instructions />
+        <Nutrition />
+      </div>
     </main>
   );
 }
