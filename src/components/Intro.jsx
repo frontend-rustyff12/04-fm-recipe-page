@@ -1,7 +1,7 @@
 export default function Intro() {
   return (
-    <section section className="flex flex-col gap-6">
-      <h1 className="font-young-serif text-custom-stone-900 text-3xl">
+    <section className="flex flex-col gap-6">
+      <h1 className="font-young-serif text-custom-stone-900 text-4xl">
         Simple Omelette Recipe
       </h1>
       <p className="text-custom-stone-600 font-light">

@@ -4,9 +4,9 @@ import Instructions from "./components/Instructions";
 import Nutrition from "./components/Nutrition";
 function App() {
   return (
-    <main className="w-screen h-screen flex flex-col">
+    <main className="w-screen h-screen flex flex-col bg-custom-white">
       <img src="/image-omelette.jpeg" alt="" />
-      <div className="px-8 py-10 font-outfit">
+      <div className="flex flex-col gap-8 px-8 py-10 font-outfit ">
         <Intro />
         <Ingredients />
         <Instructions />
