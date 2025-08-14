@@ -4,7 +4,7 @@ import Instructions from "./components/Instructions";
 import Nutrition from "./components/Nutrition";
 function App() {
   return (
-    <div className="flex flex-col md:items-center md:justify-center md:min-h-screen md:p-10 bg-custom-brown-800">
+    <div className="flex flex-col md:items-center md:justify-center md:min-h-screen md:p-10 bg-custom-rose-50">
       <main className="w-full flex flex-col bg-custom-white md:max-w-2xl md:rounded-2xl">
         <img
           className="md:m-8 md:rounded-xl"
